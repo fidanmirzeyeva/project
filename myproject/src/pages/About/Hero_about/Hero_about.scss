@@ -1,0 +1,55 @@
+.hero_about{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 15px ;
+  
+            background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.43)),
+    url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/about-bg.jpg);
+
+        background-position: center;
+        background-size: cover;
+    .info_about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h3{
+            color: white;
+            font-size: 80px;
+            letter-spacing: 10px;
+
+        }
+    }
+    .info2_about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            color: white;
+            font-size: 25px;
+
+        }
+    }
+ }
+ @media only screen and (max-width:600px) {
+    .hero_about {
+        .info_about {
+            h3 {
+                color: black;
+                font-size: 40px;
+            }
+        }
+
+        .info2_about {
+            p {
+                color: black;
+                font-size: 20px;
+            }
+        }
+
+    }
+}

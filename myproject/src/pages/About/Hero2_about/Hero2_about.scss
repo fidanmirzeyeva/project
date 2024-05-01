@@ -1,0 +1,30 @@
+.hero2_about{
+    width: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    .text_about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .text1_about{
+            width: 100%;
+            display: flex;
+            align-items: left;
+            justify-content: center;
+            flex-direction: column;
+           padding-bottom: 30px;
+            p{
+                opacity: 0.8;
+                font-size: 25px;
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,46 @@
+.hero2_post{
+    .text_post{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px auto;
+        padding-top: 80px;
+        // background-color: red;
+        .text1{
+            width: 65%;
+           padding-bottom: 40px; 
+           p{
+            font-size: 23px;
+           }
+           h3{
+            font-size: 35px;
+           }
+           a:hover{
+            color: #1ABC9C;
+           }
+           
+                    
+        
+           }
+        }
+        .diff{
+            opacity: 0.5;
+        }
+       
+        .img_post{
+            width: 80%;
+            text-align: center;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            span{
+               opacity: 0.7;
+                font-size: 15px;
+            }
+        }
+        
+    }
+  

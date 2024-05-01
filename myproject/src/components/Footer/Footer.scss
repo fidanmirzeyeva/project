@@ -1,0 +1,25 @@
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+}
+.fa-brands{
+    font-size: 50px;
+    border: 1px solid white ;        
+    border-radius: 50%;
+}
+    .fa-brands:hover{
+        background-color:#0085A1;
+        border: 1px solid #0085A1   ;
+    }
+.icons_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    p{
+        font-size: 20px;
+    }
+}
